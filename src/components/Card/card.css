@@ -1,0 +1,91 @@
+.card{
+    width: 340px;
+    height: 274px;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    background-color: #fff;
+}
+
+.line{
+    width: 300px;
+    height: 1px;
+    background: #dddddd;
+}
+.card .img_box{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card img{
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+
+}
+.card h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card p{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 14px;
+ color: #636363;
+}
+.card .detail_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .detail_box .phone_detail{
+    font-size: 13px;
+    display: flex;
+    gap: 3px;
+    color: #000;
+    align-items: center;
+    font-weight:500;
+}
+.card .detail_box .text_detail{
+    font-size: 13px;
+    color: #636363;
+}
+
+.detail_box button{
+    height: 40px;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 8px;
+}
+.detail_box button:hover{
+    background-color: #000000b0;
+    transition: all 0.4s;
+}
+
+
+
+.dialog_detail{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dialog_detail img{ 
+    width: 100px;
+    object-fit: contain;
+}
+.dialog_btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #636363;
+    border-radius: 7px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}

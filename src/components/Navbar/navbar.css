@@ -1,0 +1,52 @@
+.navbar{
+    width: 100%;
+    height: 111px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .logo .logo_company_name{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.navbar .logo .logo_company_name h1{
+    font-size: 37px;
+}
+
+.navbar .logo .logo_company_name p{
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
+.navbar .links a:first-child{
+    color:  #3063E6;
+    font-weight: 700;
+    border-bottom: 2px solid #3063E6;
+}
+.navbar .links a:hover{
+    color: #3063E6;
+    transition: all 0.4s;
+}
+
+
+.result_search{
+    width: 590px;
+    height: 51px;
+}
