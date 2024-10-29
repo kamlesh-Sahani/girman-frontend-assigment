@@ -28,7 +28,7 @@ const Navbar = () => {
             value="Linkedin"
             redirectTo="https://www.linkedin.com/company/girmantech/"
           />
-          <a href="contact@girmantech.com.">CONTACT</a>
+          <a href="mailto:contact@girmantech.com.">CONTACT</a>
         </div>
       )}
     </div>
