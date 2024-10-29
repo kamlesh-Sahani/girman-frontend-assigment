@@ -1,7 +1,6 @@
 import GerminLogo from "../../assets/logo2.png"
 import SearchBox from "../../components/SearchBox/SearchBox";
 import "./home.css";
-import { IoIosSearch } from "react-icons/io";
 const Home = () => {
   return (
     <div className="home">
